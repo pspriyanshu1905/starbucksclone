@@ -1,0 +1,489 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: ;
+
+}
+
+.border{
+    border: 2px solid red;
+}
+
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divOptions{
+    width: 50%;
+    text-decoration: none;
+    display: flex;
+    
+
+}
+
+.logo{
+    border-radius: 50%;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+
+
+.offers{
+    background-color: rgb(5, 59, 42);
+    width: 100%;
+    height: 10vh;
+    font-size: x-large;
+    display: flex;
+
+}
+
+.text{
+    color: black;
+    font-size: x-large;
+    align-content: center;
+    font-size: x-large;
+    margin-left: 10%;
+    margin-top: 20px;
+    -webkit-text-fill-color: aliceblue;
+}
+
+
+.button{
+    background-color: rgb(5, 59, 42) ;
+    border-radius: 3vh;
+    width: 7%;
+    border: 1px solid white;
+    text-align: center;
+    height: 50%;
+    margin-left: 50%;
+    margin-top: 19px;
+    font-weight: 400;
+}
+
+
+.product{
+    font-size: x-large;
+    margin-left: 13%;
+    border-color: red;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.links{
+    text-decoration: none;
+    font-size: large;
+    color: aqua;
+    
+
+}
+
+.productImage{
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 20px;
+    padding: 25px;
+    
+}
+
+.image{
+    margin-left: 150px;
+    margin-right: 70px;
+}
+
+.middle{
+    justify-content: space-evenly;
+    align-items: center;
+    border-color: red;
+    display: flex;
+    height: 28vh;
+
+}
+
+.middleimage{
+    height: 100%;
+    width: 87%;
+
+    background-image: url(./Background\ blue.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.middleflag{
+    height: 100%;
+    width: 20vh;
+
+}
+
+.middletext{
+    height: 100%;
+    width: 100vh;
+    padding-top: 3vh;
+    padding-left: 2vh;
+}
+.knowbutton{
+    height: 6vh;
+    width: 24vh;
+    margin-left: 34vh;
+    margin-top: 19vh;
+    border-radius: 3vh;
+    background-color: #00754a;
+    -webkit-text-fill-color: white;
+}
+
+.offer{
+    margin-left: 8%;
+    margin-top: 5vh;
+    margin-right: 15%;
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+
+.content{
+    height: 49vh;
+    width: 87%;
+    margin-left: 5%;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.imagecontent{
+    width: 30%;
+    height: 49vh;
+    margin-left: 4vh;
+    border-radius: 3vh;
+
+}
+
+.imageitem{
+    width: 100% ;
+    height: 23vh;
+    background-image: url(./OIP.jpg);
+}
+.textitem{
+    width: 100% ;
+    height: 26vh;
+    padding-left: 3vh;
+    padding-top: 3vh;
+    background-color: lightgray;
+}
+
+.imageitem2 {
+    width: 100% ;
+    height: 23vh;
+    background-image: url(./pizza-recipe-1.jpg);
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imageitem3{
+    width: 100% ;
+    height: 23vh;
+    background-image: url(./iced-pumpkin-spice-latte-google-3.jpg) ;
+
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+}
+
+
+.paragraph{
+    font-weight: 100;
+    font-size: small;
+}
+
+.price{
+    width: 100%;
+    height: 10VH;
+    display: flex;
+}
+
+.addbtn{
+    margin-left: 25vh;
+    border-radius: 35vh;
+    height: 40%;
+    width: 15vh;
+    margin-right: 5vh;
+    margin-top: 3vh;
+    background-color: #00754a;
+    -webkit-text-fill-color: aliceblue;
+    border-color: #00754a;
+    
+}
+
+.recommend{
+    height: 40vh;
+    width: 100%;
+   
+    justify-content: center;
+    margin-top: 10vh;
+    background-color: #edebe9;
+    
+}
+
+.recommend1{
+    height: 100%;
+    width: 80%;
+    margin-left: 20vh;
+    border-radius: 1vh;
+    justify-content: center;
+    
+    
+}
+.recup{
+    width: 100%;
+    height: 10vh;
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+.recdown{
+    width: 100%;
+    height:25vh;
+    display: flex;
+    
+        
+}
+
+.box1{
+   
+    width: 31%;
+    height: 100%;
+    background-color: white;
+    margin-right: 5vh;
+    border-radius: 1vh;
+}
+
+.box2{
+    width:  31%;
+    height: 100%;
+    background-color: white;
+    margin-right: 5vh;
+    border-radius: 1vh;
+}
+
+.box3{
+    width:  31%;
+    height: 100%;
+    background-color: white;
+    margin-right: 5vh;
+    border-radius: 1vh;
+}
+
+.insidebox{
+    height: 66%;
+    width: 100%;
+    display: flex;
+   
+}
+
+.insidetext{
+    width: 70%;
+    padding: 2vh;
+
+}
+
+
+.insidebox1{
+width: 100%;
+height: 33%;
+display: flex;
+
+
+}
+
+.insideimage{
+    height: 50%;
+    width: 30%;
+    margin: 4%;
+    background-image: url(./strawberry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.price1{
+    padding-left: 2vh;
+    width: 100%;
+    display: flex;
+
+}
+.learning{
+    width: 100%;
+    height: 65vh;
+    margin-top: 5vh;
+    background-color: #edebe9;
+}
+.learningtext{
+    height: 10vh;
+    width: 80%;
+    margin-left: 20vh;
+    font-size: x-large;
+    display: flex;
+    padding-top: 3vh;
+
+}
+.learningimage{
+    height: 47vh;
+    width: 80%;
+    margin-left: 20vh;
+    background-image: url(./beens1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color: aliceblue;
+    padding-left: 40vh;
+}
+.learnbtn{
+    background-color: transparent;
+    border: none;
+    margin-left: 90vh;
+    margin-bottom: 4vh;
+    
+}
+.coffee{
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 17vh;
+            
+}
+.lower{
+    width: 100%;
+    height: 93vh;
+    margin-top: 10vh;
+    background-color: rgb(5, 59, 42);
+
+}
+.ulower1{
+    height: 10vh;
+}
+
+.dlower{
+    height: 70vh;
+    display: flex;
+}
+
+.dlowerv{
+    height: 70vh;
+    width: 35vh;
+    padding-left: 3vh;
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+
+}
+.lowerline{
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(32, 83, 32);
+}
+.bigtext{
+    font-weight: 800;
+    font-size: x-large;
+   -webkit-text-fill-color: aliceblue;
+    
+
+}
+.smalltext{
+    font-size: medium;  
+   -webkit-text-fill-color: aliceblue;
+
+}
+
+.SOCIAL{
+    font-weight: 800;
+    font-size: large;
+    -webkit-text-fill-color: aliceblue;
+}
+
+.apple{
+    width: 90%;
+    height: 7vh;
+    margin-right: 5%;
+    background-image: url(./aa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 30vh;
+    
+}
+
+.google{
+    width: 90%;
+    height: 7vh;
+    margin-right: 5%;
+    background-image: url(./google-play-store-8-1-73-apk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 20vh;
+    
+}
+.socialmediaimage{
+    height: 8vh;
+    width: 90%;
+}
+.other{
+    width: 100%;
+    height: 10vh;
+}
+.hr{
+    
+    width: 90%;
+    margin: auto;
+}
+.contect{
+    width: 90%;
+    margin: auto;
+    height: 8vh;
+    display: flex;
+    -webkit-text-fill-color: aliceblue;
+    padding-top: 2vh;
+    font-size: smaller;
+    display: flex;
+  
+  
+}
+.contectinside{
+    margin-right: 5vh;
+    font-size: small;
+    width: 14vh;
+    
+    
+    
+}
+.copyright{
+    width: 33vh;
+    font-size: x-small;
+    margin-left: 78vh;
+    
+}
+
+::-webkit-scrollbar{
+    width: 1vh;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(32, 83, 32);;
+    border-radius: 2vh;
+}
